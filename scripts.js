@@ -42,7 +42,8 @@ var styles = [
   'background-color: #fff;',
   'padding: 20px;',
   'overflow-y: scroll;',
-  'border:solid 1px #666;'
+  'border:solid 1px #666;',
+  'z-index: 9999;'
 ]
 elem.style.cssText = styles.join('');
 
